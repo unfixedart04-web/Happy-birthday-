@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17131a">
+  <title>friend ✦</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="petals" aria-hidden="true"></div>
+
+  <button class="music" id="musicBtn" aria-label="Play music">
+    <span class="music-dot"></span>
+    <span id="musicText">Music</span>
+  </button>
+
+  <audio id="bgm" loop preload="metadata">
+    <source src="Lampaui.mp3" type="audio/mpeg">
+  </audio>
+
+  <main>
+    <section class="hero">
+      <div class="hero-orb orb-a"></div>
+      <div class="hero-orb orb-b"></div>
+      <p class="eyebrow reveal">a little page for someone special</p>
+      <h1 class="reveal delay-1">friend<span>✦</span></h1>
+      <p class="hero-copy reveal delay-2">
+        Some people become memories. Some become a beautiful part of the story.
+      </p>
+      <button class="enter reveal delay-3" id="enterBtn">
+        <span>Open the memories</span><b>↓</b>
+      </button>
+    </section>
+
+    <section class="intro section" id="memories">
+      <div class="section-label">01 / memories</div>
+      <div class="intro-grid">
+        <div class="intro-text reveal">
+          <p class="script">for my friend</p>
+          <h2>Little moments,<br><em>big memories.</em></h2>
+          <p>
+            A few photographs, a little music, and a small reminder:
+            the simplest moments can become the ones we remember the longest.
+          </p>
+        </div>
+        <div class="quote-card reveal delay-1">
+          <span class="quote-mark">“</span>
+          <p>Good friends make ordinary days feel a little more beautiful.</p>
+          <span class="tiny">— just a little reminder</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section">
+      <div class="section-label">02 / photo diary</div>
+      <div class="section-title reveal">
+        <p class="script">captured moments</p>
+        <h2>Three little frames.</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="photo photo-a reveal">
+          <img src="images/friend-1.jpg" alt="Memory photograph">
+          <figcaption><span>01</span> a beautiful moment</figcaption>
+        </figure>
+        <figure class="photo photo-b reveal delay-1">
+          <img src="images/friend-2.jpg" alt="Memory photograph">
+          <figcaption><span>02</span> golden-hour feeling</figcaption>
+        </figure>
+        <figure class="photo photo-c reveal delay-2">
+          <img src="images/friend-3.jpg" alt="Memory photograph">
+          <figcaption><span>03</span> one for the memories</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="letter section">
+      <div class="section-label">03 / a little note</div>
+      <div class="paper reveal">
+        <div class="paper-tape"></div>
+        <p class="script">dear friend,</p>
+        <h2>Keep smiling.<br>Keep being you.</h2>
+        <p>
+          Life gets busy and days keep changing, but I hope you always keep
+          the little things that make you happy close to your heart.
+        </p>
+        <p>
+          Thank you for being one of those people who can make a normal day
+          feel worth remembering. Wherever life takes us, I hope there are
+          always more laughs, more pictures, more random conversations, and
+          more moments to look back on.
+        </p>
+        <p class="sign">with warm wishes,<br><strong>your friend</strong> ♡</p>
+      </div>
+    </section>
+
+    <section class="finale">
+      <div class="final-glow"></div>
+      <p class="script reveal">and one last thing...</p>
+      <h2 class="reveal delay-1">Some memories<br><em>deserve a replay.</em></h2>
+      <button class="replay reveal delay-2" id="replayBtn">↻ replay the beginning</button>
+      <p class="footer">made with a little bit of time & a lot of good vibes ✦</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
